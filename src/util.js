@@ -333,7 +333,6 @@ export function convertToNumber(variable) {
     requireNonNull(variable);
     if (
         isBigNumber(variable) ||
-        isString(variable) ||
         isNumber(variable) ||
         isLong(variable)
     ) {
